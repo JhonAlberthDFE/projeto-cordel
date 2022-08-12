@@ -32,11 +32,11 @@ header > p {
 }
 a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bolder;
 }
 a:hover {
-    text-decoration: underline;
+    color: #37CCFA;
 }
 section{
     padding-top: 10vh;
@@ -44,7 +44,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 section > p {
     padding-bottom: 2em;
@@ -52,6 +52,9 @@ section > p {
 section.normal {
     background-color: white;
     color: black;
+}
+section.normal > p {
+    padding-left: 6px;
 }
 section.imagem {
     background-color: rgb(60, 57, 57);
